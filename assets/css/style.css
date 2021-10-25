@@ -1,16 +1,112 @@
 body {
     font-family: 'Roboto', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Rotation */
+.rotate  {
+    -webkit-transition: all 10s ease;
+    transition: all 1s ease;
+    }
+.rotate:hover  {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-8deg);
+    
+    }
+
+#deco:hover {
+        color: #4DD0E1;
+        text-decoration:none;
+        }
+    
+
+.essai {
+    color:black;    
+    background-image: url("../img/prog.jpg");
+    backface-visibility:hidden;
+    height: 20%;   
+}
+
+.pho{ 
+    text-align: center;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+.text {
+    transform: rotate(-3deg);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 6%;
+
 }
 
 
 
 
+/* fontImgTexts */
 
+/* one */
 
+.textHead {
+    display: inline-block;
+    position: relative;
+}
 
+.textHead .textOne {
+    padding-top: 3%;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 4%;
+    color: black;
+    width: 100%;
+}
 
+/* two */
 
+.textHead {
+    display: inline-block;
+    position: relative;
+}
 
+.textHead .textTwo {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: black;
+    width: 70%;
+}
+
+/* three */
+
+.textHead {
+    display: inline-block;
+    position: relative;
+}
+
+.textHead .textThree {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 75%;
+    color: black;
+    width:100%;
+}
+
+/* timeline */
 
 .timeline-container {
     width: 80%;
@@ -80,6 +176,7 @@ body {
     word-spacing: 1px;
     color: black;
 }
+
 @media screen and (max-width: 768px) {
     .timeline-container:before {
         left: 8px;
@@ -97,3 +194,20 @@ body {
     direction: ltr;
     }
 }
+
+
+
+/* size */
+
+@media screen and (min-width: 1024px) {
+    p,.picture {
+    font-size: 2rem;
+    }
+    .dev {
+        font-size: 4rem;
+    }
+
+    
+
+}
+
