@@ -24,12 +24,6 @@ ul {
         }
     
 
-.essai {
-    color:black;    
-    background-image: url("../img/prog.jpg");
-    backface-visibility:hidden;
-    height: 20%;   
-}
 
 .pho{ 
     text-align: center;
@@ -39,7 +33,7 @@ ul {
 
 }
 .text {
-    transform: rotate(-3deg);
+    
     font-size: 2em;
     text-align: center;
     margin-top: 6%;
