@@ -1,57 +1,48 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-image: radial-gradient(circle at 28% 44%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 1%,transparent 1%, transparent 73%,transparent 73%, transparent 100%),radial-gradient(circle at 81% 65%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 18%,transparent 18%, transparent 77%,transparent 77%, transparent 100%),radial-gradient(circle at 51% 45%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 11%,transparent 11%, transparent 12%,transparent 12%, transparent 100%),radial-gradient(circle at 10% 56%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 82%,transparent 82%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 42% 35%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 22%,transparent 22%, transparent 77%,transparent 77%, transparent 100%),radial-gradient(circle at 26% 86%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 17%,transparent 17%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 52% 88%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 49%,transparent 49%, transparent 70%,transparent 70%, transparent 100%),radial-gradient(circle at 62% 41%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 14%,transparent 14%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 54% 59%, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.05) 42%,transparent 42%, transparent 86%,transparent 86%, transparent 100%),linear-gradient(135deg, rgb(225,180,232),rgb(225,180,232));
 }
-
-ul {
+ul{
     list-style-type: none;
 }
-
 /* Rotation */
-.rotate  {
+.rotate{
     -webkit-transition: all 10s ease;
     transition: all 1s ease;
-    }
-.rotate:hover  {
+}
+.rotate:hover{
     -webkit-transform: rotate(-15deg);
     transform: rotate(-8deg);
-    
     }
-
-#deco:hover {
-        color: #4DD0E1;
-        text-decoration:none;
-        }
-    
-
-
+.deco{
+    color:white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+.deco:hover{
+        color: #4DD0E1; 
+}
 .pho{ 
     text-align: center;
     margin-left: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
-
 }
-.text {
+.text{
     
     font-size: 2em;
     text-align: center;
     margin-top: 6%;
-
 }
-
-
-
-
+.tex{
+    font-size: 3vh;
+}
 /* fontImgTexts */
-
 /* one */
-
 .textHead {
     display: inline-block;
     position: relative;
 }
-
 .textHead .textOne {
     padding-top: 3%;
     position: absolute;
@@ -63,14 +54,11 @@ ul {
     color: black;
     width: 100%;
 }
-
 /* two */
-
 .textHead {
     display: inline-block;
     position: relative;
 }
-
 .textHead .textTwo {
     position: absolute;
     text-align: center;
@@ -81,14 +69,11 @@ ul {
     color: black;
     width: 70%;
 }
-
 /* three */
-
 .textHead {
     display: inline-block;
     position: relative;
 }
-
 .textHead .textThree {
     position: absolute;
     text-align: center;
@@ -99,9 +84,7 @@ ul {
     color: black;
     width:100%;
 }
-
 /* timeline */
-
 .timeline-container {
     width: 80%;
     padding: 50px 0;
@@ -170,7 +153,6 @@ ul {
     word-spacing: 1px;
     color: black;
 }
-
 @media screen and (max-width: 768px) {
     .timeline-container:before {
         left: 8px;
@@ -188,11 +170,7 @@ ul {
     direction: ltr;
     }
 }
-
-
-
 /* size */
-
 @media screen and (min-width: 1024px) {
     p,.picture {
     font-size: 2rem;
@@ -200,8 +178,5 @@ ul {
     .dev {
         font-size: 4rem;
     }
-
-    
-
 }
 

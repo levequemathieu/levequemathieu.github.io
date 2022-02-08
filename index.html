@@ -15,45 +15,51 @@
 </head>
 
 <body>
-
     <!-- header -->
-
     <header>
-
-        <!-- navbar -->
-
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light opacity-75">
-            <div class="container-fluid mt-2">
-                <a id="deco" class="navbar-brand" href="#"><span class="border border-dark border-2 p-2">Mathieu LEVEQUE</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a id="deco" class="nav-link active" aria-current="page" href="#moi">À Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="deco" class="nav-link active" aria-current="page" href="#competences">Mes Compétences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="deco" class="nav-link active" aria-current="page" href="#formations">Mon Parcours</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="deco" class="nav-link active" aria-current="page" href="#realisations">Mes Réalisations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="deco" class="nav-link active" aria-current="page" href="#contacter">Contact</a>
-                        </li>
-                    </ul>
+    <!-- navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light opacity-75">
+                            <div class="container-fluid mt-2">
+                                <a id="deco" class="navbar-brand" href="#"><span class="border border-dark border-2 p-2">Mathieu LEVEQUE</span></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a id="deco" class="nav-link active" aria-current="page" href="#moi">À Propos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a id="deco" class="nav-link active" aria-current="page" href="#competences">Mes Compétences</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a id="deco" class="nav-link active" aria-current="page" href="#formations">Mon Parcours</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a id="deco" class="nav-link active" aria-current="page" href="#realisations">Mes Réalisations</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a id="deco" class="nav-link active" aria-current="page" href="#contacter">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-
+        </div>
+    </div>  
         <!-- fontImgHeader -->
-
         <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col p-0 textHead dev">
@@ -76,77 +82,80 @@
     <main>
 
         <!-- Apropos -->
-
-        <h1 id="moi" class="text-center mt-5">
-            <id class="border-bottom border-info border-3"><span class="fw-bold">À Propos</span></id>
-        </h1>
-        <div class="p-5">
-            <p>Développeur web junior, actuellement en formation à <span class="fw-bold">La Manu</span> (L'École des métiers du Numérique), j'apprend de
-                jour en jour de nouvelles technologie et m'enrichir mes connaissances en développement.</p>
-        </div>
-
-        <!-- fontImg -->
-
-        <div class="essai">
-            <div class="row mt-4"> 
-                <div class="col-4">
-                    <div class="pho">
-                    <img src="assets/img/profil2.jpg" class="img-fluid" alt="profil">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 id="moi" class="text-center mt-5">
+                    <id class="border-bottom border-info border-3"><span class="fw-bold">À Propos</span></id>
+                </h1>
+                <div class="p-5">
+                    <p>Développeur web junior, actuellement en formation à <span class="fw-bold">La Manu</span> (L'École des métiers du Numérique), j'apprend de
+                        jour en jour de nouvelles technologie et m'enrichir mes connaissances en développement.</p>
                 </div>
-                </div>
-                <div class="col-8">
-                    <div class="text">
-                        <ul>
-                            <li><span class="fw-bold">Nom: </span>Lévêque</li>
-                            <li><span class="fw-bold">Prénom: </span>Mathieu</li>
-                            <li><span class="fw-bold">Age: </span>30 ans</li>
-                            <li><span class="fw-bold">Ville: </span>Albert (80)</li>
-                        </ul>
-                    </div>
-                </div>                     
             </div>
         </div>
+    </div>     
+
+        <!-- fontImg -->
+    <div class="container-fluid mb-5">
+        <div class="row mt-4"> 
+            <div class="col-12 col-sm-6 text-center d-flex justify-content-center"">                      
+                    <img src="assets/img/profil2.jpg" id="fix" class="img-fluid rounded-3" alt="profil">                      
+            </div>
+            <div class="col-12 col-sm-6 tex mt-5 d-flex justify-content-center">                     
+                    <ul>
+                        <li><span class="fw-bold">Nom: </span>Lévêque</li>
+                        <li><span class="fw-bold">Prénom: </span>Mathieu</li>
+                        <li><span class="fw-bold">Age: </span>30 ans</li>
+                        <li><span class="fw-bold">Ville: </span>Albert (80)</li>
+                    </ul>
+            </div>                     
+        </div>
+    </div>
+    
+    
         
         <!-- buttom -->
-
-               
-                
-                <div class="col text-center">
-                    <div class="btn" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-primary text-white btn-lg fs-2">Télécharger mon CV en pdf</button>
-                    </div> 
-                </div> 
-                
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="col mt-5 text-center">
+                            <div class="btn" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-primary text-white btn-lg fs-2">Télécharger mon CV en pdf</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            
 
 
 
             <!-- competences -->
-
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12">
             <h1 id="competences" class="text-center mt-5">
                 <id class="border-bottom border-info border-3"><span class="fw-bold">Mes Compétences</span></id>
             </h1>
             <ul class="mt-5">
-
-                <!-- front-end -->
-
-            
+                <!-- front-end -->    
                 <li>
-                    <h2 class="h4 m-3 fst-italic text-decoration-underline">Front-End</h2>
+                    <h2 class="h4 m-3 fst-italic text-decoration-underline text-center">Front-End</h2>
                 </li>
                 <ul>
-                    <li><img src="assets/img/html.png" alt="html">50%
+                    <li><div class=""><img src="assets/img/html.png" alt="html">85%</div>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
-                    <li><img src="assets/img/css.png" alt="css">25%
+                    <li><img src="assets/img/css.png" alt="css">75%
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
-                    <li><img src="assets/img/js.png" alt="js">5%
+                    <li><img src="assets/img/js.png" alt="js">65%
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5"
                                 aria-valuemin="0" aria-valuemax="100"></div>
@@ -157,10 +166,10 @@
                 <!-- back-end -->
 
                 <li>
-                    <h2 class="h4 mt-5 m-3 fst-italic text-decoration-underline">Back-end</h2>
+                    <h2 class="h4 mt-5 m-3 fst-italic text-decoration-underline text-center">Back-end</h2>
                 </li>
                 <ul>
-                    <li><img src="assets/img/php.png" alt="php">2%
+                    <li><img src="assets/img/php.png" alt="php">70%
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 2%" aria-valuenow="2"
                                 aria-valuemin="0" aria-valuemax="100"></div>
@@ -168,7 +177,10 @@
                     </li>
                 </ul>
             </ul>
-            
+        </div>
+    </div>
+</div>
+                
 
             <!-- formations -->
 
@@ -236,16 +248,25 @@
             <!-- carousel -->
             
             <div class="d-flex justify-content-center">
-                <div id="carouselExampleControls" class="carousel slide mt-5 w-75" data-bs-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide mt-5 w-50" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/img/bart.jpg" class="d-block w-100" alt="bart">                    
+                            <img src="assets/img/projet.png" class="d-block w-100" alt="bart">                    
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/homer.jpg" class="d-block w-100" alt="homer">
+                            <img src="assets/img/shifumi.png" class="d-block w-100" alt="homer">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/papaNoel.jpg" class="d-block w-100" alt="papaNoel">
+                            <img src="assets/img/guitare.png" class="d-block w-100" alt="papaNoel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/guitareShop.png" class="d-block w-100" alt="papaNoel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/card.png" class="d-block w-100" alt="papaNoel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/bart.jpg" class="d-block w-100" alt="papaNoel">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -270,20 +291,23 @@
             <id class="border-bottom border-info border-3"><span class="fw-bold">Contact</span></id>
         </h1>
 
-        <!-- map -->
 
-        <div class="row">
-            <div class="col text-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d164122.65678577125!2d2.651531!3d50.003548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd5f4ca2ae09d3%3A0x40af13e81622130!2s80300%20Albert!5e0!3m2!1sfr!2sfr!4v1634987075166!5m2!1sfr!2sfr" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <!-- map -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d164122.65678577125!2d2.651531!3d50.003548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd5f4ca2ae09d3%3A0x40af13e81622130!2s80300%20Albert!5e0!3m2!1sfr!2sfr!4v1634987075166!5m2!1sfr!2sfr" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
-        </div>
-                    
+        </div>            
         <!-- contact -->
         
         
             <div class="mt-5 p-3 bg-dark text-white text-center">
-                <a id="deco" href="tel:0612937781" class="link-light"><p>Tél: 06-12-93-77-81</p></a>
-                <p class="m-4">Email: mathieuleveque2@gmail.com</p>
+                <a class="deco" href="tel:0612937781"><p>Tél: 06-12-93-77-81</p></a>
+                <a class="deco" href="mailto:mathieuleveque2@gmail.com">Email: mathieuleveque2@gmail.com</a>
             </div>
 
 
